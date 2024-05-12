@@ -30,68 +30,68 @@ def exec(cmd):   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
         #err = process.stdout.decode()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
 def pull_run(work, cmds):   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
     with concurrent.futures.ThreadPoolExecutor(max_workers=work) as executor:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
-        print("Waiting for tasks to complete")   #Bot Created by @NtrRazYt
-        fut = executor.map(exec,cmds)   #Bot Created by @NtrRazYt
-async def aio(url,name):   #Bot Created by @NtrRazYt
-    k = f'{name}.pdf'   #Bot Created by @NtrRazYt
-    async with aiohttp.ClientSession() as session:   #Bot Created by @NtrRazYt
-        async with session.get(url) as resp:   #Bot Created by @NtrRazYt
-            if resp.status == 200:   #Bot Created by @NtrRazYt
-                f = await aiofiles.open(k, mode='wb')   #Bot Created by @NtrRazYt
-                await f.write(await resp.read())   #Bot Created by @NtrRazYt
-                await f.close()   #Bot Created by @NtrRazYt
-    return k   #Bot Created by @NtrRazYt
-   #Bot Created by @NtrRazYt
-   #Bot Created by @NtrRazYt
-async def download(url,name):   #Bot Created by @NtrRazYt
-    ka = f'{name}.pdf'   #Bot Created by @NtrRazYt
-    async with aiohttp.ClientSession() as session:   #Bot Created by @NtrRazYt
-        async with session.get(url) as resp:   #Bot Created by @NtrRazYt
-            if resp.status == 200:   #Bot Created by @NtrRazYt
-                f = await aiofiles.open(ka, mode='wb')   #Bot Created by @NtrRazYt
-                await f.write(await resp.read())   #Bot Created by @NtrRazYt
-                await f.close()   #Bot Created by @NtrRazYt
-    return ka   #Bot Created by @NtrRazYt
-   #Bot Created by @NtrRazYt
-   #Bot Created by @NtrRazYt
-   #Bot Created by @NtrRazYt
-def parse_vid_info(info):   #Bot Created by @NtrRazYt
-    info = info.strip()   #Bot Created by @NtrRazYt
-    info = info.split("\n")   #Bot Created by @NtrRazYt
-    new_info = []   #Bot Created by @NtrRazYt
+        print("Waiting for tasks to complete")   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+        fut = executor.map(exec,cmds)   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+async def aio(url,name):   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    k = f'{name}.pdf'   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    async with aiohttp.ClientSession() as session:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+        async with session.get(url) as resp:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            if resp.status == 200:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                f = await aiofiles.open(k, mode='wb')   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                await f.write(await resp.read())   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                await f.close()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    return k   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+async def download(url,name):   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    ka = f'{name}.pdf'   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    async with aiohttp.ClientSession() as session:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+        async with session.get(url) as resp:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            if resp.status == 200:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                f = await aiofiles.open(ka, mode='wb')   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                await f.write(await resp.read())   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                await f.close()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    return ka   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+def parse_vid_info(info):   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    info = info.strip()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    info = info.split("\n")   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    new_info = []   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    temp = []   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    for i in info:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+        i = str(i)   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+        if "[" not in i and '---' not in i:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            while "  " in i:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                i = i.replace("  ", " ")   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            i.strip()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            i = i.split("|")[0].split(" ",2)   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            try:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                if "RESOLUTION" not in i[2] and i[2] not in temp and "audio" not in i[2]:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                    temp.append(i[2])   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                    new_info.append((i[0], i[2]))   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            except:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                pass   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    return new_info   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+def vid_info(info):   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    info = info.strip()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    info = info.split("\n")   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+    new_info = dict()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
     temp = []   #Bot Created by @NtrRazYt
-    for i in info:   #Bot Created by @NtrRazYt
-        i = str(i)   #Bot Created by @NtrRazYt
-        if "[" not in i and '---' not in i:   #Bot Created by @NtrRazYt
-            while "  " in i:   #Bot Created by @NtrRazYt
-                i = i.replace("  ", " ")   #Bot Created by @NtrRazYt
-            i.strip()   #Bot Created by @NtrRazYt
-            i = i.split("|")[0].split(" ",2)   #Bot Created by @NtrRazYt
-            try:   #Bot Created by @NtrRazYt
-                if "RESOLUTION" not in i[2] and i[2] not in temp and "audio" not in i[2]:   #Bot Created by @NtrRazYt
-                    temp.append(i[2])   #Bot Created by @NtrRazYt
-                    new_info.append((i[0], i[2]))   #Bot Created by @NtrRazYt
-            except:   #Bot Created by @NtrRazYt
-                pass   #Bot Created by @NtrRazYt
-    return new_info   #Bot Created by @NtrRazYt
-   #Bot Created by @NtrRazYt
-   #Bot Created by @NtrRazYt
-def vid_info(info):   #Bot Created by @NtrRazYt
-    info = info.strip()   #Bot Created by @NtrRazYt
-    info = info.split("\n")   #Bot Created by @NtrRazYt
-    new_info = dict()   #Bot Created by @NtrRazYt
-    temp = []   #Bot Created by @NtrRazYt
-    for i in info:   #Bot Created by @NtrRazYt
-        i = str(i)   #Bot Created by @NtrRazYt
-        if "[" not in i and '---' not in i:   #Bot Created by @NtrRazYt
-            while "  " in i:   #Bot Created by @NtrRazYt
-                i = i.replace("  ", " ")   #Bot Created by @NtrRazYt
-            i.strip()   #Bot Created by @NtrRazYt
-            i = i.split("|")[0].split(" ",3)   #Bot Created by @NtrRazYt
-            try:   #Bot Created by @NtrRazYt
-                if "RESOLUTION" not in i[2] and i[2] not in temp and "audio" not in i[2]:   #Bot Created by @NtrRazYt
-                    temp.append(i[2])   #Bot Created by @NtrRazYt
-                       #Bot Created by @NtrRazYt
+    for i in info:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+        i = str(i)   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+        if "[" not in i and '---' not in i:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            while "  " in i:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                i = i.replace("  ", " ")   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            i.strip()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            i = i.split("|")[0].split(" ",3)   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+            try:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                if "RESOLUTION" not in i[2] and i[2] not in temp and "audio" not in i[2]:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                    temp.append(i[2])   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+                       #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
                     # temp.update(f'{i[2]}')   #Bot Created by @NtrRazYt
                     # new_info.append((i[2], i[0]))   #Bot Created by @NtrRazYt
                     #  mp4,mkv etc ==== f"({i[1]})"    #Bot Created by @NtrRazYt
