@@ -1,4 +1,4 @@
-import logging   #Bot Created by 𝕃𝕦𝕔𝕚𝕗𝕖𝕣
+import logging   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
 import subprocess   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
 import datetime   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
 import asyncio   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
@@ -80,7 +80,7 @@ def vid_info(info):   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
     info = info.strip()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
     info = info.split("\n")   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
     new_info = dict()   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
-    temp = []   #Bot Created by @NtrRazYt
+    temp = []   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
     for i in info:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
         i = str(i)   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
         if "[" not in i and '---' not in i:   #Bot Created by @𝕃𝕦𝕔𝕚𝕗𝕖𝕣
