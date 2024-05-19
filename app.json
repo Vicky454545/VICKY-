@@ -1,13 +1,13 @@
 {
-    "name": "𝐓𝐞𝐱𝐭 Uploader 『Mendax",
+    "name": "𝐓𝐞𝐱𝐭 Uploader 『𝕃𝕦𝕔𝕚𝕗𝕖𝕣",
     "description": "Download videos from various websites using this telegram bot",
-    "logo": "https://graph.org/file/45f562dc05b2874c7277e.jpg",
+    "logo": "https://www.istockphoto.com/photos/lucifer-symbol",
     "keywords": [
         "text-video",
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/mohitbooraget/New_Txt_Random",
+    "repository": "https://github.com/Ownerlost/Lucifer-txt-uploader",
     "success_url": "https://telegram.me/imendaxpublic",
     "stack": "container",
     "env": {
@@ -21,6 +21,10 @@
         },
         "BOT_TOKEN": {
             "description": "Enter your bot token You can generate by @BotFather",
+            "required": true
+        },
+        "AUTH_USERS":{
+            "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
             "required": true
         }
     },
